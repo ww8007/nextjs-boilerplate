@@ -2,8 +2,8 @@
 
 - 참고 블로그
 
-'https://qnrjs42.github.io/react/redux/next_redux_toolkit/#pages_apptsx'
-'https://xploitdev.com/dev/next-redux-toolkit/'
+[blog1]'https://qnrjs42.github.io/react/redux/next_redux_toolkit/#pages_apptsx'
+[blog2]'https://xploitdev.com/dev/next-redux-toolkit/'
 
 ## 구성
 
