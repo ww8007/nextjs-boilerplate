@@ -1,5 +1,12 @@
 # nextjs-boilerplate
 
+
+- 참고 블로그
+
+[blog1]'https://qnrjs42.github.io/react/redux/next_redux_toolkit/#pages_apptsx'
+[blog2]'https://xploitdev.com/dev/next-redux-toolkit/'
+
+
 ## 구성
 
 - nextjs + typescript + redux-toolkit + styled-components
