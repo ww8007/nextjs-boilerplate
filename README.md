@@ -14,3 +14,29 @@
 
     touch ./next-env.d.ts
     yarn add --dev typescript @types/react @types/node
+
+## styled-components
+
+> `.babelrc`
+
+    touch .babelrc
+
+```json
+{
+  "presets": ["next/babel"],
+  "plugins": [
+    [
+      "styled-components",
+      {
+        "ssr": true,
+        "displayName": true,
+        "preprocess": false
+      }
+    ]
+  ]
+}
+```
+
+> `webpack`
+
+    code ./next.config.js
