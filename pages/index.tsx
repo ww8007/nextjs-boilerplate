@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
 import styled from 'styled-components';
-import Counter from '../components/counter';
 
 const Text = styled.div`
   color: blue;
@@ -16,7 +15,9 @@ export default function Home() {
 
   return (
     <div className="container">
-      <Counter />
+      <Text>
+        <span>{text} 적용 완료</span>
+      </Text>
     </div>
   );
 }
