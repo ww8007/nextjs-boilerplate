@@ -1,11 +1,12 @@
 import { useState } from 'react';
-import { useSelector, useDispatch } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { addNumber, subNumber } from '../modules/counter';
+import { useAppSelector } from '../hooks/useSelector';
 import styled from 'styled-components';
 import { State, RootState } from '../modules';
 export function useCounter() {
   const dispatch = useDispatch();
-  const { number } = useSelector((state: State) => ({
+  const { number } = useAppSelector((state: State) => ({
     number: state.counter.number,
   }));
   const onClickAdd = () => {
