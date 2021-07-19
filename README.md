@@ -6,11 +6,11 @@
 
 ## 최초 세팅
 
-1. next 설정
+> next 설정
 
-   > yarn create next-app .
+    yarn create next-app .
 
-2. typescript 설정
+> typescript 설정
 
-   > touch ./next-env.d.ts
-   > yarn add --dev typescript @types/react @types/node
+    touch ./next-env.d.ts
+    yarn add --dev typescript @types/react @types/node
