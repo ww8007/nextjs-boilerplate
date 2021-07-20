@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Head from 'next/head';
 import styled from 'styled-components';
-import Counter from '../components/counter';
+import Counter from '../components/Counter';
 
 const Text = styled.div`
   color: blue;
